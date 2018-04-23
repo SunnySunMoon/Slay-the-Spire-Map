@@ -123,7 +123,7 @@ StSMap.prototype.visualizeMap = function (dom) {
     for (let i=0; i<this.levelsArr.length; i++) {
         for (let j=0; j<this.levelsArr[i].length; j++) {
             let node = new JTopo.Node(this.levelsArr[i][j].id);
-            node.setLocation(j*120, i*140+30);
+            node.setLocation(j*120 +30-60*Math.random(), i*140+30+35-70*Math.random());
             node.fontColor = 'black';
             node.setSize(30,30);
             switch (this.levelsArr[i][j].type) {
