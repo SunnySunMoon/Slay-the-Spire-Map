@@ -6,6 +6,8 @@ Slay the Spire is a strategy games fused with card and roguelikes together. Its 
 
 And I want to force myself to use Object-oriented coding style this time .
 
+The map is here : [Slay-the-Spire-Map-Building](https://sunnysunmoon.github.io/Slay-the-Spire-Map/).
+
 There are some features to be completed soon :
 + the coordinate of each node should be random in a certain range.
 + the random function that determine the node's type should be a function with level variable;
